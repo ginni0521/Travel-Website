@@ -1,0 +1,223 @@
+/* about CSS*/
+
+.col
+{
+    background-color: #263238;
+ }
+ 
+.navbar .logo ,
+.navbar a{
+    text-decoration: none;
+    color: rgb(247, 252, 253);
+}
+.navbar .logo{
+    float: left;
+    margin :2vw;
+    font-size: 2rem;
+    margin-left: 4vw;
+}
+.navbar .nav-items a{
+    float:center;
+    margin-left:5vw;
+}
+.navbar .nav-items .nav-items{
+    display: inline-block;
+     margin:2vw;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: o auto;
+}
+.lg-heading{
+    font-size: 2.0rem;
+    border-bottom: 2px solid red;
+    border-width: 3px;
+}
+.about{
+    padding:3rem 0;
+    margin: 0  auto;
+}
+.about-wrapper{
+    display: flex;
+
+    padding-left: 10rem;
+    padding-right: 30rem;
+    padding-top: 2rem;
+    color: rgb(31, 8, 82);
+    font-size: 1.0rem;
+}
+
+.left,
+.right {
+    width: 45%;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: left;
+}
+
+.counts{
+    margin: 3rem auto;
+    text-align: center;
+}
+.count-item{
+    display: inline-block;
+    margin: 1%;
+    width: 25%;
+    text-align: center;
+}
+.count-item span{
+    font-size: 3rem;
+    font-weight: 600;
+    color: red;
+}
+.count-item p{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: grey;
+}
+.banner{
+    background:red ;
+    margin-right: 5rem;
+    color: white;
+    padding: 1rem;
+    margin-top: 3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner-left{
+    width: 60%;
+    float: left;
+}
+.banner-right{
+    float: right;
+    margin-top: 0.5rem;
+}
+.b-line{
+    font-weight:600;
+    font-size: 1.2rem;
+}
+.bat
+ {
+
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+     }
+.bat:hover{
+color: brown;
+background-color: #2e66bb;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .navbar .logo {
+        font-size: 1.5rem;
+    }
+
+    .navbar .nav-items a {
+        margin: 0 1vw;
+        font-size: 0.9rem;
+    }
+
+    .about-wrapper {
+        padding: 0 1rem;
+    }
+
+    .left, .right {
+        width: 48%;
+    }
+
+    .banner-left {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar .nav-items {
+        flex-direction: column;
+    }
+
+    .navbar .nav-items li {
+        margin: 5px 0;
+    }
+
+    .text-about {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .about-wrapper {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-left {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .banner-right {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .logo {
+        font-size: 1rem;
+    }
+
+    .navbar .nav-items a {
+        font-size: 0.8rem;
+    }
+
+    .lg-heading {
+        font-size: 1.5rem;
+    }
+
+    .text-about {
+        font-size: 0.9rem;
+    }
+
+    .count-item {
+        width: 100%;
+        margin: 1rem 0;
+}
+
+.banner .bat {
+font-size: 1.2rem;
+padding: 0.5rem 1.5rem;
+}
+}
+
+
+

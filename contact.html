@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel-website</title>
+    <link href="css/Style2.css" rel="stylesheet">
+    <link href="./js/script.js">
+</head>
+<body>
+    <nav class="navbar col">
+        <h1 class="logo"></h1>
+        <ul class="nav-items">
+            <li class="nav-items"><a href="index.html">Home</a></li>
+            <li class="nav-items"><a href="about.html">About</a></li>
+            <li class="nav-items"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="contact-form">
+        <div class="container">
+    <div class="form-wrapper">
+         <div class="company-address">
+            <h1><u>Director General</u></h1>
+            <p>Phone : +91-223-56666,
+               email : ayodhyatourism@gmail.com 
+               <br><br>
+               For bookings/ Tour package
+               Related query
+               Contact: 04-555-633387
+               <br><br>
+               For Tourism policy
+               Related query 
+               Contact:05-666-533378  
+            </p>
+         </div>  </div>
+        <form action="" class="form" id="contactForm" onsubmit="return validateForm()">
+        <h1><u>Contact us</u></h1>
+           <div class="form group">
+           <label for="username">Username</label>
+           <input type="text" id="username" required><br><br>
+       </div>
+           <div class="form group">
+            <label for="email">email</label>
+            <input type="email" id="email" required><br><br>
+           </div>
+           <div class="form group">
+            <label for="phone">phone</label>
+            <input type="number" id="phone" required><br><br>
+           </div>
+           <div class="form group">
+            <label for="message">message</label>
+            <textarea id="message" required></textarea>
+           </div>
+            <button type="submit" class="form button">Submit</button>
+           </form>
+          <div class="clear"></div>
+        </section>
+        
+</body>
+</html>
